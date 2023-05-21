@@ -1,17 +1,7 @@
-<!DOCTYPE html>
+{% extends 'core/base.html' %}
 
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width-device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title> Artemii</title>
-  </head>
+{% block title %} Welcome {% endblock %}
 
-  <body>
-    <div class="px-6">
-      <h1>The front page</h1>
-    </div>
-  </body>
-</html>
-
+{% block content %}
+<h1> The front page</h1>
+{% endblock %}
